@@ -206,25 +206,25 @@ insert into Usuario(idRol, Nombre, Tipo_Documento, Num_Documento, Direccion, Tel
 values('3','Sofia Ramirez','Cedula','00234567892','Calle Honguito Wa #43','8496540087','sofiaramirez003@kelvinshop','@Maria23-12-04')
 go
 insert into Usuario(idRol, Nombre, Tipo_Documento, Num_Documento, Direccion, Telefono, Email, Contrasenia)
-values('4','Jesus ','','','','','','')
+values('4','Juan Diaz','Cedula','40233112311','Av san martin #5','8095597878','Juandiaz@gmail.com','12345rf6789')
 go
 insert into Usuario(idRol, Nombre, Tipo_Documento, Num_Documento, Direccion, Telefono, Email, Contrasenia)
-values('5','','','','','','','')
+values('5','Manuel Jimenez','Cedula','40233112312','','8095597890','','123er456789')
 go
 insert into Usuario(idRol, Nombre, Tipo_Documento, Num_Documento, Direccion, Telefono, Email, Contrasenia)
-values('6','','','','','','','')
+values('6','Marcos Rodriguez','Cedula','40233112313','','8095597800','','123fsx456789')
 go
 insert into Usuario(idRol, Nombre, Tipo_Documento, Num_Documento, Direccion, Telefono, Email, Contrasenia)
-values('7','','','','','','','')
+values('7','Juan Lopez','Cedula','40233112314','','8095597850','','123456cfs789')
 go
 insert into Usuario(idRol, Nombre, Tipo_Documento, Num_Documento, Direccion, Telefono, Email, Contrasenia)
-values('8','','','','','','','')
+values('8','Maria de Jesus Lopez','Cedula','40233112315','','','','12xcds3456789')
 go
 insert into Usuario(idRol, Nombre, Tipo_Documento, Num_Documento, Direccion, Telefono, Email, Contrasenia)
-values('9','','','','','','','')
+values('9','Daniel Ramirez','Cedula','','','','','')
 go
 insert into Usuario(idRol, Nombre, Tipo_Documento, Num_Documento, Direccion, Telefono, Email, Contrasenia)
-values('10','Anselma de La Rosa','Cedula','00123456780','Calle El Campito #120','8097654321','','')
+values('10','Anselma de La Rosa','Cedula','00123456780','Calle El Campito #120','8097654321','elmadelarosa@yahoo.com','123Rosa1435')
 go
 
 
