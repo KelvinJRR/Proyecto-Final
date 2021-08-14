@@ -90,7 +90,7 @@ select * from Categoria
 GO
 
 insert into Articulo(idCategoria, Codigo, Nombre, Precio_Ventas, Stock, Descripcion)
-
+values()
 select * from Articulo
 GO
 
