@@ -1,3 +1,4 @@
+drop table Categoria
 create table Categoria(
 	idCategoria int primary key identity,
 	Nombre varchar(100) not null unique,
@@ -53,7 +54,7 @@ Create table Usuario(
 	Direccion varchar(70) null,
 	Telefono varchar(10) not null,
 	Email varchar(50) not null,
-	password varbinary not null,
+	Contrasenia varbinary(max) not null,
 	estado bit default(1),
 	Foreign Key (idRol) references rol (idRol)
 );
@@ -160,8 +161,73 @@ go
 
 select * from Persona
 GO
+
+insert into Rol(Nombre,Descripcion)
+values('Director General','Maximo cargo de la compañia')
+go
+insert into Rol(Nombre,Descripcion)
+values('Community Maneger','Encargado de la publicidad y de las redes sociales')
+go
+insert into Rol(Nombre,Descripcion)
+values('Recursos Humanos','Encargado/a de las contrataciones de personal y el orden del mismo')
+go
+insert into Rol(Nombre,Descripcion)
+values('Portavoz','Encargado/a de hablar en los eventos publicos o privados')
+go
+insert into Rol(Nombre,Descripcion)
+values('Gerente de Ventas','Encargado/a de supervisar todas las ventas')
+go
+insert into Rol(Nombre,Descripcion)
+values('Gerente de almacen','Encargado/a de supervisar el almacen')
+go
+insert into Rol(Nombre,Descripcion)
+values('Cajero/a','Se dedica a pasar los productos y cobrar')
+go
+insert into Rol(Nombre,Descripcion)
+values('Almacenista','Se dedica a despachar los productos en el almacen')
+go
+insert into Rol(Nombre,Descripcion)
+values('Reponedores ','Se dedican a traer la mercancia del almacen hasta la tienda')
+go
+insert into Rol(Nombre,Descripcion)
+values('Limpiadores','Se encargan de la limpieza de la empresa')
+go
+
 select * from Rol
 GO
+
+insert into Usuario(idRol, Nombre, Tipo_Documento, Num_Documento, Direccion, Telefono, Email, Contrasenia)
+values('1','Jose Andres Guzman','Cedula','40256789021','Residencial Alameda Oeste, calle Los Almendros #4','8096543219','joseandreguzman99@kelvinshop.com','@J0s312-14')
+go
+insert into Usuario(idRol, Nombre, Tipo_Documento, Num_Documento, Direccion, Telefono, Email, Contrasenia)
+values('2','Raul Cifuentes','Cedula','00123456782','Residencial Alma Rosa III, Edificio 2 Apt. 201','8295678432','Raulcifuentes@kelvinshop.com','RaulAlmendraCarro')
+go
+insert into Usuario(idRol, Nombre, Tipo_Documento, Num_Documento, Direccion, Telefono, Email, Contrasenia)
+values('3','Sofia Ramirez','Cedula','00234567892','Calle Honguito Wa #43','8496540087','sofiaramirez003@kelvinshop','@Maria23-12-04')
+go
+insert into Usuario(idRol, Nombre, Tipo_Documento, Num_Documento, Direccion, Telefono, Email, Contrasenia)
+values('4','Jesus ','','','','','','')
+go
+insert into Usuario(idRol, Nombre, Tipo_Documento, Num_Documento, Direccion, Telefono, Email, Contrasenia)
+values('5','','','','','','','')
+go
+insert into Usuario(idRol, Nombre, Tipo_Documento, Num_Documento, Direccion, Telefono, Email, Contrasenia)
+values('6','','','','','','','')
+go
+insert into Usuario(idRol, Nombre, Tipo_Documento, Num_Documento, Direccion, Telefono, Email, Contrasenia)
+values('7','','','','','','','')
+go
+insert into Usuario(idRol, Nombre, Tipo_Documento, Num_Documento, Direccion, Telefono, Email, Contrasenia)
+values('8','','','','','','','')
+go
+insert into Usuario(idRol, Nombre, Tipo_Documento, Num_Documento, Direccion, Telefono, Email, Contrasenia)
+values('9','','','','','','','')
+go
+insert into Usuario(idRol, Nombre, Tipo_Documento, Num_Documento, Direccion, Telefono, Email, Contrasenia)
+values('10','Anselma de La Rosa','Cedula','00123456780','Calle El Campito #120','8097654321','','')
+go
+
+
 select * from Usuario
 GO
 
