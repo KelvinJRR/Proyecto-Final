@@ -89,8 +89,45 @@ GO
 select * from Categoria
 GO
 
-insert into Articulo(idCategoria, Codigo, Nombre, Precio_Ventas, Stock, Descripcion)
-values()
+insert into Articulo(idCategoria, Codigo, Nombre, Precio_Venta, Stock, Descripcion)
+values('1','','','','','')
+go
+insert into Articulo(idCategoria, Codigo, Nombre, Precio_Venta, Stock, Descripcion)
+values('','','','','','')
+go
+insert into Articulo(idCategoria, Codigo, Nombre, Precio_Venta, Stock, Descripcion)
+values('','','','','','')
+go
+insert into Articulo(idCategoria, Codigo, Nombre, Precio_Venta, Stock, Descripcion)
+values('','','','','','')
+go
+insert into Articulo(idCategoria, Codigo, Nombre, Precio_Venta, Stock, Descripcion)
+values('','','','','','')
+go
+insert into Articulo(idCategoria, Codigo, Nombre, Precio_Venta, Stock, Descripcion)
+values('','','','','','')
+go
+insert into Articulo(idCategoria, Codigo, Nombre, Precio_Venta, Stock, Descripcion)
+values('','','','','','')
+go
+insert into Articulo(idCategoria, Codigo, Nombre, Precio_Venta, Stock, Descripcion)
+values('','','','','','')
+go
+insert into Articulo(idCategoria, Codigo, Nombre, Precio_Venta, Stock, Descripcion)
+values('','','','','','')
+go
+insert into Articulo(idCategoria, Codigo, Nombre, Precio_Venta, Stock, Descripcion)
+values('','','','','','')
+go
+insert into Articulo(idCategoria, Codigo, Nombre, Precio_Venta, Stock, Descripcion)
+values('','','','','','')
+go
+
+
+
+
+
+
 select * from Articulo
 GO
 
