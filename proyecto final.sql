@@ -54,7 +54,7 @@ Create table Usuario(
 	Direccion varchar(70) null,
 	Telefono varchar(10) not null,
 	Email varchar(50) not null,
-	Contrasenia varbinary(max) not null,
+	Contrasenia nvarchar(50) not null,
 	estado bit default(1),
 	Foreign Key (idRol) references rol (idRol)
 );
@@ -209,19 +209,19 @@ insert into Usuario(idRol, Nombre, Tipo_Documento, Num_Documento, Direccion, Tel
 values('4','Juan Diaz','Cedula','40233112311','Av san martin #5','8095597878','Juandiaz@gmail.com','12345rf6789')
 go
 insert into Usuario(idRol, Nombre, Tipo_Documento, Num_Documento, Direccion, Telefono, Email, Contrasenia)
-values('5','Manuel Jimenez','Cedula','40233112312','','8095597890','','123er456789')
+values('5','Manuel Jimenez','Cedula','40233112312','Av. Sarasota #79','8095597890','Manueljimenez@yahoo.es','123er456789')
 go
 insert into Usuario(idRol, Nombre, Tipo_Documento, Num_Documento, Direccion, Telefono, Email, Contrasenia)
-values('6','Marcos Rodriguez','Cedula','40233112313','','8095597800','','123fsx456789')
+values('6','Marcos Rodriguez','Cedula','40233112313','Av. Los Restauradores Casa #100','8095597800','MarcosRodriguez@gmail.com','123fsx456789')
 go
 insert into Usuario(idRol, Nombre, Tipo_Documento, Num_Documento, Direccion, Telefono, Email, Contrasenia)
-values('7','Juan Lopez','Cedula','40233112314','','8095597850','','123456cfs789')
+values('7','Juan Lopez','Cedula','40233112314','Calle La calmita #400','8095597850','juanlopez@gmail.com','123456cfs789')
 go
 insert into Usuario(idRol, Nombre, Tipo_Documento, Num_Documento, Direccion, Telefono, Email, Contrasenia)
-values('8','Maria de Jesus Lopez','Cedula','40233112315','','','','12xcds3456789')
+values('8','Maria de Jesus Lopez','Cedula','40233112315','Calle Los Cocos #2','829897653','MariaLopez@hotmail.com','12xcds3456789')
 go
 insert into Usuario(idRol, Nombre, Tipo_Documento, Num_Documento, Direccion, Telefono, Email, Contrasenia)
-values('9','Daniel Ramirez','Cedula','','','','','')
+values('9','Daniel Ramirez','Cedula','22878543780','Calle Villa Campo #4','8096543210','DaniRam@hotmail.com','@Daniel234560')
 go
 insert into Usuario(idRol, Nombre, Tipo_Documento, Num_Documento, Direccion, Telefono, Email, Contrasenia)
 values('10','Anselma de La Rosa','Cedula','00123456780','Calle El Campito #120','8097654321','elmadelarosa@yahoo.com','123Rosa1435')
